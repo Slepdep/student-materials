@@ -2,45 +2,75 @@
 
 ## Executive Summary
 
-Exeter wants software that will connect students to each other for projects. This program will be able to connect students based on their attributes and skills to give students the tools to create a well rounded team with synergy. It will be a social network designed to help students achieve this by giving them space to both express their qualities, goals, and professional personalities and to communicate with others to find like minded students for projects.
+Exeter wants software that will connect students to each other for projects. This program will be able to connect students based on their attributes and skills to give students the tools to create a well rounded team with synergy. It will be a social network designed to help students achieve this by giving them space to both express their qualities, goals, and professional personalities and to communicate with others to find like minded students for projects. It will allow for a list of interests and goals set by each individual along with set tags that they can tag themselves with to find people with similar tags.
 
 ## Business Objectives
 
-*Business objectives should offer the details for why the project is important.  Outline the goals of the project int he sense of the value it will bring and set expectations.  Keep your objectives measurable to avoid confusion in whether or not they have been met.*
+This program aims to be a meeting place for students to interact with others with similar interests in the process of finding and creating project teams. It will be a chatroom with some social media features, including a very small profile space and special chatrooms/servers that students can make after they've established their group.
 
 ## Background
 
-*Provide any relevant background information regarding why this project is being initiated*
+This project is being initiated because of a need of a group oriented chat system designed to help students and individuals alike to find a group for projects. 
 
 ## Scope
 
-*The Scope section should outline what is and is not included as part of this project.  Oftentimes we make assumptions of features or functionality that is not necessarily required.  This is especially useful in a phased approach or when working on an existing system.*
+-Main Chatroom for a school or course
+-Small profile that lists a name, icon, "tags" of what their interests and qualities are, and additionally tags that are for any groups they join.
+-Offshoot chatroom for each established group, granted access by an admin to create it.
+-ability to view other users' tags
+-group chatrooms are invisible to those that do not have the tag.
+
 
 ## Functional requirements
 
-*This is where most of the detail should reside.  describe all of the required capabilities of the system in detail.  It is helpful to articulate features in terms of user capabilities.  Keep in mind that the features will be designed and developed off of these descriptions, so if you leave anything up to interpretation, you run the risk of the results not meeting your expectations.  You can also assume capabilities that are not mentioned here will not be included in the project, no matter how common or obvious they are.  You may want to break our subsections for each major feature to make the document more organized.*
+Users will be able to create an account and choose from tags specified by the school's chat that they're joining for students, as well as letting students pick qualities and interest tags for themselves.
+The chatrooms will be a place where users can post and read text and images and limited code, with a school's main page being the main place to chat with chats available specially for the tags chosen by the students.
+Students will be able to make their own related but invisible (unless the tag is given) chat for their group. 
+Students in groups will be allowed to hand out the tag for said group to people who do not have the tag.
+Users will be able to view the tags of other users, but not the chats if they do not share a tag for a group or interest.
+
 
 
 ## Personnel requirements
 
-*In this section you may want to describe the composition of the team, do you need dedicated development?  how many people?  How about design or QA?  Think about what personnel is required to make this project a success, and place your recommendations here.*
+This project will likely require:
+A project manager
+A medium-sized development team of coders
+A bug tester
+A systems admin
+A moderator that moderates activity that could affect the functionality of the application and terms of service of the application itself (ie botnet or DDOS attempts)
+Quality Assurance (Ideally with someone from Exeter to test the product's functionality)
+
+All else (instructors, moderators for specific chats) should be up to the school using the program.
 
 ## Delivery schedule
 
-*It's often helpful to break a project out into phases or milestones.  In this section list out any logical checkpoints where you would like to see the project demonstrated to ensure that expectations are being met.  Describe the phase, and the functional requirements required for completion.*
+Delivery Schedule should be around 1.5 years or 18 months.
+
+First quarter of the year would be focused on getting the basic functions of posting and getting content onto the skeleton framework of the chatroom itself.
+
+Second Quarter work on both profile and tag features.
+
+Third Quarter work on auxillary servers and bug testing begins on the code.
+
+Fourth quarter design and UI is finalized, bug testing continues.
+
+Fifth Quarter is QA's time to be hands on and test the functionality of the app.
+
+Sixth is the final bug check (to see if QA unearthed anything themselves) and then launch.
 
 ## Other requirements
 
-*This section serves as a catch-all for any details that may not fit in other areas.  things like device or browser support, considerations for accessibility or inspiration for style.  Offer additional context here to ensure the project meets your vision*
+The app will be native to most all Operating Systems for the app itself, and a in browser version will be available to users as well, which will work with many of the major browsers.
 
 ## Assumptions
 
-*Oftentimes we are reliant on outside sources such as frameworks to be used, or services that our system will depend on.  In this section you should provide detail on any assumptions that you have made, such as the system being reliant on the availability of the Google Maps API.*
+Expectation is Javascript and C++; Express in particular. 
 
 ## Limitations
 
-*Identify any limitations in terms of time, personnel, technical details, or other things that limit the scope, time, and cost of the project being discussed.*
+Screen sharing and one on one friend chatting is not an immediate concern for this timeframe, but could be added in the future if the app is moderately successful or the impetus from users exists to add it and is hard to ignore.
 
 ## Risks
 
-*Every project has inherent risks that may cause delay or even failure of a project.  You must identify this risks to show you know what they are, and also identify ways in which you would mitigate those risks.*
+A risk of this project could be that the system isn't used; sometimes even when good options are available for such chats they're just not used and that's a definite consideration of this. This risk could be mitigated by forcing exeter schools to use this but it's not a guarantee. 
