@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-*Your executive summary should be pretty brief, under 3 paragraphs and should provide a concise summary of the purpose and contents of the rest of the document.  Explain to the reader what they will get from this document.*
+Exeter wants software that will connect students to each other for projects. This program will be able to connect students based on their attributes and skills to give students the tools to create a well rounded team with synergy. It will be a social network designed to help students achieve this by giving them space to both express their qualities, goals, and professional personalities and to communicate with others to find like minded students for projects.
 
 ## Business Objectives
 
